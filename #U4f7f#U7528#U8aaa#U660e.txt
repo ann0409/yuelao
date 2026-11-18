@@ -1,0 +1,20 @@
+月老事務所｜多分頁完整網站
+
+打開 index.html 即為首頁；其他頁面可用上方選單切換。
+
+頁面列表：
+- index.html　首頁（商品形象照、六款熱銷商品）
+- shop.html　緣分選物（商品搜尋、分類、價格排序、詳細介紹）
+- daily.html　今日良緣（每日小籤）
+- blessing-box.html　線上祈盒（互動拆盒）
+- guide.html　參拜指南（含購買小問答）
+- wishes.html　心願繪馬（僅儲存在瀏覽器）
+
+assets/site.css、assets/site.js 和 assets/products/* 是網站必需資源。
+請不要單獨移動 HTML 檔案或刪除 assets 資料夾；上傳到網站空間時需整個資料夾一起上傳。
+在網址部署同一網域下，共用購物車會透過瀏覽器 localStorage 同步。
+如果直接使用 file:// 本機開啟，因瀏覽器存取限制，已額外支援在站內頁面連結傳遞購物車內容。
+
+注意：訂單使用既有 Google Apps Script 網址發送；因跨網域 no-cors 無法讀取收單回應，
+網站顯示「訂單請求已送出」不等同 Google 試算表已收到，需到後端確認。
+商品照片為 AI 風格化示意，材質與細節請依實際商品為準。
